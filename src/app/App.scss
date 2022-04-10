@@ -1,0 +1,80 @@
+/* header */
+@import "../components/header/header";
+
+/* pages */
+@import "../pages/home/home";
+@import "../pages/contact/contact";
+@import "../pages/my_account/my_account";
+@import "../pages/vehicles/vehicles";
+
+/*components*/
+
+
+.home_div {
+  margin: 5vh 20vw;
+}
+
+body {
+  font: 1rem 'PublicaSans', sans-serif;
+  margin: 0;
+  text-decoration: none;
+  font-weight: lighter;
+  scroll-behavior: smooth;
+  letter-spacing: .08em;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.div_main {
+  width: 100%;
+  height: 90vh;
+}
+
+
+body::-webkit-scrollbar {
+  background-color: #F2F2F2;
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #B3AFB3;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #696969;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 0 #F0F0F0;
+  margin-top: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: .5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    font-size: .5rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+

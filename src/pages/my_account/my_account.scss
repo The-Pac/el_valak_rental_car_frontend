@@ -1,0 +1,50 @@
+.auth_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+
+  .auth_form {
+    border-radius: 2px;
+    height: 30vh;
+    padding: 10px;
+    background-color: #f2f3f4;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .auth_div_main {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      width: 100%;
+      height: 50px;
+      justify-content: space-between;
+
+      .input_text {
+        width: 100%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: black solid 1px;
+        background-color: transparent;
+      }
+
+      .input_text::selection {
+        background-color: transparent;
+      }
+    }
+
+    .auth_div_button {
+      background-color: #1c2938;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      height: 50px;
+      color: white;
+    }
+  }
+}

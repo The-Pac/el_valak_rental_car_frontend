@@ -1,0 +1,215 @@
+/* header */
+.header_section {
+  height: 5vh;
+  margin-bottom: 3vh;
+  padding: 10px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c2938;
+  border-radius: 5px;
+}
+.header_section .title {
+  color: white;
+}
+.header_section .div_navbar {
+  width: 30vw;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.header_section .div_navbar .navbar_items {
+  text-decoration: none;
+  color: white;
+}
+
+/* pages */
+.home_section .home_div_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_section .home_div_content .description_div {
+  width: 50%;
+  padding-right: 20px;
+}
+.home_section .home_div_content .image_div_home {
+  width: 50%;
+}
+.home_section .home_div_content .image_div_home .image_home {
+  max-width: 100%;
+}
+
+.contact_section {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.contact_section .contact_form {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.contact_section .contact_form .input_mail {
+  margin-top: 10px;
+  width: 100%;
+}
+.contact_section .contact_form .input_message {
+  margin-top: 10px;
+  width: 100%;
+  height: 5vh;
+}
+.contact_section .contact_form .name_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contact_section .contact_form .name_div .input_div {
+  width: 40%;
+}
+.contact_section .contact_form .name_div .input_div .name_div {
+  margin-top: 10px;
+}
+.contact_section .contact_form .input_div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+}
+.contact_section .contact_form .button_send {
+  margin: 3vh;
+}
+
+.auth_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.auth_section .auth_div {
+  border-radius: 2px;
+  height: 20vh;
+  padding: 10px;
+  background-color: #f2f3f4;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.auth_section .auth_div .input_div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+}
+.auth_section .auth_div .input_div .input_text {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: black solid 1px;
+  background-color: transparent;
+}
+.auth_section .auth_div .button_connexion {
+  background-color: #1c2938;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+.vehicles_section .selection_div {
+  width: 30%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vehicles_section .selection_div select {
+  border: black solid 1px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.vehicles_section .selection_div .reset_button {
+  background-color: #1c2938;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: fit-content;
+  color: white;
+}
+
+/*components*/
+.home_div {
+  margin: 5vh 20vw;
+}
+
+body {
+  font: 1rem "PublicaSans", sans-serif;
+  margin: 0;
+  text-decoration: none;
+  font-weight: lighter;
+  scroll-behavior: smooth;
+  letter-spacing: 0.08em;
+}
+
+.flex {
+  display: flex;
+}
+
+.div_main {
+  width: 100%;
+  height: 90vh;
+}
+
+body::-webkit-scrollbar {
+  background-color: #F2F2F2;
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #B3AFB3;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #696969;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 0 #F0F0F0;
+  margin-top: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.5rem;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    font-size: 0.5rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,26 @@
+.header_section {
+  height: 5vh;
+  margin-bottom: 3vh;
+  padding: 10px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c2938;
+  border-radius: 5px;
+
+  .title {
+    color: white;
+  }
+
+  .div_navbar {
+    width: 30vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    .navbar_items {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

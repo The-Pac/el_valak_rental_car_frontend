@@ -1,0 +1,27 @@
+.home_section {
+
+  .home_div_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .description_div {
+      width: 50%;
+      padding-right: 20px;
+
+      .description_text {
+
+
+      }
+    }
+
+    .image_div_home {
+      width: 50%;
+
+      .image_home {
+        max-width: 100%;
+      }
+    }
+  }
+}
